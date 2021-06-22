@@ -1,0 +1,57 @@
+:root {
+  background-color: rgb(189, 219, 219);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: large; 
+}
+
+h1 {
+  font-size: 56px;
+  color: rgb(24, 23, 23);
+
+}
+
+.container {
+  width:80% ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.flex-column{
+  display: flex;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  font: 24px;
+  padding: 16px;
+  /* width: 28px; */
+  text-align: center;
+  color: black;
+  background-color: orangered;
+  margin: 15px;
+  border-radius: 4%;
+  height: 73px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 10px gray;
+  transition: ease-in .2s;
+}
+
+#highScore-btn {
+  font-weight: 500;
+}
