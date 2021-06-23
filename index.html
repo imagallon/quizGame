@@ -7,14 +7,49 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
+  <button class="highscore-btn">High Score</button>
+  <div class="large font timer-count">60</div>
 <body>
+  <h1>Code Quiz Challenge</h1>
   <div class="container">
-    <div id="home" class="flex-column">
-      <h1>Code Quiz Challenge</h1>
-      <a href="/game.html" class="btn">Play</a>
-      <a href="/highscores.html" id="highScore-btn" 
-      class="btn">High Score</a>
+    <button class="start-btn">Start</button>  
+    <div id="question-container1" class="hidden">
+      <p>What is the first month of the year?</p>
+      <button class="btn">November</button>
+      <button class="btn">June</button>
+      <button class="btn">March</button>
+      <button class="btn">January</button>
     </div>
-  </div>
+    <div id="question-container2" class="hidden">
+      <p>How many inches in a foot?</p>
+      <button class="btn">10in</button>
+      <button class="btn">6in</button>
+      <button class="btn">2in</button>
+      <button class="btn">12in</button>
+    </div>
+    <div id="question-container3" class="hidden">
+      <p>What is the atomic symbol for gold?</p>
+      <button class="btn">Au</button>
+      <button class="btn">Ge</button>
+      <button class="btn">Ga</button>
+      <button class="btn">Cl</button>
+    </div>
+    <div id="question-container4" class="hidden">
+      <p>How many bytes are in a kilobyte?</p>
+      <button class="btn">36</button>
+      <button class="btn">360000</button>
+      <button class="btn">1000</button>
+      <button class="btn">10</button>
+    </div>
+    <div id="question-container5" class="hidden">
+      <p>All Done!!</p>
+      <p>Score:</p>
+      <p class="score"></p>
+      <input class="initials" type="text">
+      <button class="finish">Finish</button>
+    </div>
+</div> 
+  <script src="script.js">
+  </script>
 </body>
 </html>
