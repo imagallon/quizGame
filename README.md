@@ -12,10 +12,19 @@ I learned that logic is hard and can be frustrating. I know for a fact that I ne
 
 
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+
+   
+   
+   
+   
+   
+  ![Code quiz start](https://user-images.githubusercontent.com/85265225/123049251-3283bb00-d3b4-11eb-9454-87c171f496a8.png)
+   
+   ![Code quiz challenge_select](https://user-images.githubusercontent.com/85265225/123049275-3a435f80-d3b4-11eb-88ee-32d07080a404.png)
+
+
+   ![all done!](https://user-images.githubusercontent.com/85265225/123049283-3c0d2300-d3b4-11eb-8510-aefa49c7f13c.png)
+
+
 ## Credits
 I want to give a big thanks to my good friend Dan, who helped me better understand function arguments.
